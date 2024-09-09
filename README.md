@@ -35,8 +35,9 @@ class ExampleController extends Controller
         }
     }
 }
-
+```
 ## Exception Handling
+```
 use Tobelyan\EHDM\Services\HDMService;
 use Tobelyan\EHDM\Exceptions\HDMException;
 
@@ -50,3 +51,4 @@ try {
     echo 'Failed to activate service: ' . $e->getErrorMessage();
     echo 'Error Code: ' . $e->getErrorCode();
 }
+```
